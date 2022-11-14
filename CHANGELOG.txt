@@ -1,2 +1,5 @@
-0.1a   Nov 12, 2022
+0.11a   Nov 14, 2022
+    - added ui reload prompt for addons that require it
+    - added SexyMap profile copying
+0.10a   Nov 12, 2022
     - existential dread commences
