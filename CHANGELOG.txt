@@ -1,3 +1,5 @@
+0.12a   Nov 16, 2022
+    - added EditMode layout handler
 0.11a   Nov 14, 2022
     - added ui reload prompt for addons that require it
     - added SexyMap profile copying
