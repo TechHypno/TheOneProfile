@@ -1,9 +1,12 @@
-## Interface: 11402
+## Interface: 30400
 ## Title: TheOneProfile
 ## Notes: The One Profile To Rule Them All
 ## Author: TeHypno
 ## Version: @project-version@
 ## OptionalDeps: Ace3, SexyMap
+## SavedVariables: TheOneProfileConfig
 
 main.lua
+config.lua
 addons\addons.xml
+events.lua

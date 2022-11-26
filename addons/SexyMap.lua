@@ -6,10 +6,12 @@ local function DeepCopy(t)
     end
     return r
 end
-TOP.RegisterAddonHandler("SexyMap",
+TOP.RegisterAddonHandler("PLAYER_ENTERING_WORLD", "SexyMap",
     -- SexyMap has a built-in global profile functionality,
     -- enable it, copy the character profile into it and return true to request a ReloadUI.
-    function(profileName)
+    function()
+        -- check if user disabled TheOneProfile for SexyMap
+        if TOP.IsIgnoredAddon("SexyMap") then return end
         local char = (UnitName("player").."-"..GetRealmName())
         if (type(SexyMap2DB) == 'table') and (SexyMap2DB[char] ~= "global") then
             if not SexyMap2DB.global then

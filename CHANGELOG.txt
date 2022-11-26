@@ -1,3 +1,5 @@
+0.13a   Nov 26, 2022
+    - added ability to ignore certain addons through the options panel
 0.12a   Nov 16, 2022
     - added EditMode layout handler
 0.11a   Nov 14, 2022
